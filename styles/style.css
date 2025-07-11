@@ -119,6 +119,10 @@ nav .top-container h3 {
     font-weight: bold;
     margin-bottom: 40px;
     color: #252432;
+    background-color: rgba(78, 71, 255, 0.1);
+}
+.active-user {
+    background-color: rgba(78, 71, 255, 0.1);
 }
 .number {
     font-size: 80px;
@@ -130,6 +134,7 @@ nav .top-container h3 {
     width: 856px;
     justify-content: space-between;
     margin: auto;
+    background-color: rgba(78, 71, 255, 0.1);
     
 }
 
@@ -163,7 +168,8 @@ nav .top-container h3 {
     max-width: 318.67px;
     padding: 24px;
     border-radius: 14px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid #F2EDED;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
 }
 .review-title {
     font-size: 22px;
@@ -186,6 +192,53 @@ nav .top-container h3 {
 }
 .reviewer-name p {
      color: rgba(117, 117, 117, 1);
+}
+
+/* Form Section Design */
+.form-title_font {
+    font-size: 97px;
+    font-weight: bold;
+}
+.form-title {
+    width: 528px;
+}
+.form-fillup {
+    width: 497px;
+}
+.form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: auto;
+    padding: 71px 0px;
+    box-sizing: border-box;
+}
+.boxpadding {
+    padding: 20px 32px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 100%;
+    border: 1px solid #D6DDED;
+    /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+}
+input[type="email"] {
+    display:block;
+    margin-top: 10px;
+    margin-bottom: 19px;
+}
+input[type="text"] {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 19px;
+}
+.form-fillup textarea {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 19px;
+}
+.button-design-form {
+    width: 100%;
 }
 
 
