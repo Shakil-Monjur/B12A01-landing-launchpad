@@ -241,6 +241,50 @@ input[type="text"] {
     width: 100%;
 }
 
+/* Footer Section Design */
+.footer {
+    width: 531px;
+    margin: auto;
+    text-align: center;
+}
+footer li a {
+    text-decoration: none;
+    color:#8987A1;
+    font-size: 20px;
+}
+footer li a:hover {
+    color: rgb(255, 136, 0);
+}
+
+footer ul {
+    list-style: none;
+    max-width: 401px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer {
+    background: #FFFFFF;
+    height: 428px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+}
+.footer-logo {
+    font-size: 100px;
+    font-weight: bold;
+    color:rgba(78, 71, 255, 1);
+    margin-bottom: 8px;
+}
+.footer-descrip {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 23px 0px;
+    color: #8987A1;
+}
+
+
 
 
 
