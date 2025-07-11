@@ -1,6 +1,9 @@
 *{
     margin: 0px;
     padding: 0px;
+    
+}
+body {
     background-color: #F5F8FF;
 }
 .raleway-normal {
@@ -27,9 +30,8 @@
     border-radius: 10px;
 }
 .button-design:hover {
-    background-color: white;
-    color: #4E47FF;
-    border: 2px solid #4E47FF;
+    background-color:  rgb(255, 136, 0);
+    color:  white;
 }
 
 /* shared-style for section-titile */
@@ -119,11 +121,9 @@ nav .top-container h3 {
     font-weight: bold;
     margin-bottom: 40px;
     color: #252432;
-    background-color: rgba(78, 71, 255, 0.1);
+    /* background-color: rgba(78, 71, 255, 0.1); */
 }
-.active-user {
-    background-color: rgba(78, 71, 255, 0.1);
-}
+
 .number {
     font-size: 80px;
     font-weight: bold;
@@ -134,7 +134,7 @@ nav .top-container h3 {
     width: 856px;
     justify-content: space-between;
     margin: auto;
-    background-color: rgba(78, 71, 255, 0.1);
+    /* background-color: rgba(78, 71, 255, 0.1); */
     
 }
 
@@ -211,7 +211,7 @@ nav .top-container h3 {
     align-items: center;
     max-width: 1140px;
     margin: auto;
-    padding: 71px 0px;
+    padding-bottom: 71px;
     box-sizing: border-box;
 }
 .boxpadding {
@@ -246,6 +246,7 @@ input[type="text"] {
     width: 531px;
     margin: auto;
     text-align: center;
+    background-color: #FFFFFF;
 }
 footer li a {
     text-decoration: none;
@@ -265,7 +266,7 @@ footer ul {
     align-items: center;
 }
 footer {
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     height: 428px;
     width: 100%;
     display:flex;
@@ -283,8 +284,3 @@ footer {
     margin: 23px 0px;
     color: #8987A1;
 }
-
-
-
-
-
